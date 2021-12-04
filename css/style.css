@@ -1,0 +1,1631 @@
+/*************************
+*********** ABOUT REALCONSTRUCT ***************
+***************************/
+
+
+/* *******************************************
+    Theme Name: RealContruct
+    Theme URI:
+    Author: DivTip.com
+    Author URI:
+    Description: Landing page web template
+    Tags: landing page, Construction,html5,builder Construction,Developer Construction
+ ***************************************************************/
+
+/* ***********************************
+   Contents Use for the Website
+************************************** */
+
+/*********************************************** 
+   1.google fonts - yantramanav (title + description) 
+   2.font awesome v4.7
+   3.bootstrap v4.5
+   4.animate.css
+   5.wow.js
+   6.stickup.js
+   7.mixitup.js
+   8.picture collected
+   -freepik
+   9.icon collect
+   -flaticon
+   10.media queries
+   - tab: (min-width: 768px) and (max-width: 1024px)
+   -  mobile: (min-width: 320px) and (max-width: 480px)
+
+   **************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Yantramanav', sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+
+/* project code start */
+
+.header-section {
+  width: 100%;
+  background: #FFCC1D;
+}
+
+
+/* sticky up */
+
+.isStuck {
+  left: 0px;
+  width: 20%;
+  background: white;
+}
+
+.navbar-wrapper {
+  margin-top: -9px;
+  position: relative;
+  z-index: 15;
+}
+
+
+/*header section menu start */
+
+.header-section-menu {
+  width: 100%;
+}
+
+.header-section-menu .bg-light {
+  background: transparent !important;
+}
+
+.header-section-menu .nav-link {
+  margin-left: 26px;
+}
+
+.header-section-menu .navbar-light .navbar-nav .active>.nav-link {
+  color: black;
+}
+
+.header-section-menu .navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 1s;
+}
+
+.header-section-menu .navbar-light .navbar-nav .nav-link:hover {
+  background-color: #FFCC1D;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header-section-menu .navbar-nav {
+  margin-left: 25px;
+}
+
+.header-section-menu .btn {
+  font-size: 21px;
+  font-weight: 600;
+  background-color: black;
+  border-radius: 10px;
+  padding: 7px 14px;
+  transition: 1s;
+}
+
+.header-section-menu .btn:hover,
+.header-section-menu .btn:focus {
+  background-color: white;
+  color: #FFCC1D;
+}
+
+.header-section-menu .navbar-brand img {
+  max-width: 26%;
+}
+
+.header-section-menu .navbar-brand {
+  margin-right: -211px;
+}
+
+
+/*header section menu end  */
+
+
+/*header section banner start */
+
+.header-section-banner {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.header-section-banner .banner-content {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.header-section-banner .banner-content h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+}
+
+.header-section-banner .banner-content p {
+  font-size: 16px;
+  color: black;
+  line-height: 26px;
+}
+
+.header-section-banner .banner-content .btn {
+  font-size: 22px;
+  background-color: black;
+  font-weight: 600;
+  padding: 13px 15px;
+  transition: 1s;
+}
+
+.header-section-banner .banner-content .btn:hover {
+  background-color: white;
+  color: #FFCC1D;
+}
+
+.header-section-banner .banner-right-image {
+  margin-bottom: -80px;
+}
+
+.header-section-banner .banner-right-image .b-image {
+  width: 100%;
+  height: 567px;
+}
+
+
+/*header section banner end  */
+
+
+/*about us section start */
+
+.about-us {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.about-us-top {
+  width: 100%;
+}
+
+.about-us-top .about-us-top-inner h3 {
+  text-align: center;
+  font-weight: 600;
+  color: black;
+}
+
+.about-us-top .about-us-top-inner h4 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #FFCC1D;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.about-us-middle .about-us-middle-inner img {
+  width: 83%;
+  margin-left: 115px;
+}
+
+.about-us-bottom {
+  margin-top: 46px;
+}
+
+.about-us-bottom .card img {
+  width: 43%;
+  margin-left: 86px;
+}
+
+.about-us-bottom .card-body .card-title {
+  text-align: center;
+  font-weight: 600;
+}
+
+.about-us-bottom .card-body .card-text {
+  text-align: center;
+  font-size: 17px;
+}
+
+.about-us-bottom .card-body .btn {
+  margin-left: 58px;
+  font-size: 16px;
+  background-color: black;
+  font-weight: 600;
+  padding: 9px 9px;
+  transition: 1s;
+}
+
+.about-us-bottom .card-body .btn:hover {
+  background-color: white;
+  color: #FFCC1D;
+}
+
+
+/*about us section end  */
+
+
+/*our client section start */
+
+.our-clients {
+  width: 100%;
+  padding: 80px 0px 60px 0px;
+  background-color: #F1F1F1;
+}
+
+
+/* our client heading */
+
+.our-clients-heading .our-clients-heading-inner h3 {
+  text-align: center;
+  font-weight: 600;
+  color: black;
+}
+
+.carousel-control-prev-icon {
+  margin-top: -94px;
+  background-image: url(../images/left.png) !important;
+}
+
+.carousel-control-next-icon {
+  margin-top: -94px;
+  background-image: url(../images/right-arrow.png) !important;
+}
+
+.our-clients-heading .our-clients-heading-inner h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #FFCC1D;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+
+/*our client testimonials*/
+
+.our-clients-testimonials {
+  margin-top: -43px;
+}
+
+.carousel-indicators {
+  color: #FFCC1D;
+}
+
+.our-clients-testimonials .carousel-inner {
+  padding-top: 219px;
+  padding-bottom: 10px;
+}
+
+.our-clients-testimonials p {
+  font-size: 18px;
+  color: black;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.carousel-item h5 {
+  color: black;
+}
+
+.carousel-indicators li {
+  background-color: #FFCC1D !important;
+}
+
+
+/*our client section end */
+
+
+/*our projects start */
+
+.our-projects {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.our-projects .our-project-title {
+  margin-bottom: 30px;
+}
+
+.our-projects .our-project-title h5 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  color: black;
+}
+
+.protfolio-section {
+  width: 100%;
+  text-align: center;
+}
+
+.protfolio-section .buttons {
+  margin-bottom: 23px;
+}
+
+.protfolio-section .buttons .btn {
+  padding: 6px 11px 9px 9px;
+  font-size: 21px;
+  font-weight: 700;
+  background-color: #FFCC1D;
+  transition: 1s;
+}
+
+.protfolio-section .buttons .btn:hover {
+  color: #FFCC1D;
+  background-color: white;
+}
+
+.protfolio-section .padd {
+  padding: 5px;
+}
+
+.protfolio-section .item {
+  width: 100%;
+  position: relative;
+}
+
+.item-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  transform: scale(0);
+  background-color: rgba(255, 99, 71, 0.2);
+  transition: 0.3s;
+}
+
+.item:hover .item-hover {
+  transform: scale(1);
+}
+
+.protfolio-section .fa {
+  font-size: 31px !important;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/*our projects end  */
+
+
+/* press release section start*/
+
+.press-release {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.press-release-right {
+  width: 100%;
+  padding: 30px;
+  background-color: black;
+}
+
+.press-release h4 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #FFCC1D;
+}
+
+.press-release p {
+  font-size: 16px;
+  color: white;
+  line-height: 26px;
+}
+
+.press-release .btn {
+  font-size: 22px;
+  background-color: #FFCC1D;
+  font-weight: 600;
+  padding: 13px 15px;
+  transition: 1s;
+}
+
+.press-release.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.press-release-left {
+  width: 100%;
+}
+
+.press-releas-right-one {
+  padding: 15px;
+  background: #F1F1F1;
+}
+
+.press-releas-right-one p {
+  font-size: 24px;
+}
+
+.press-releas-right-one h4 {
+  font-size: 19px;
+}
+
+.press-releas-right-one a {
+  color: black;
+}
+
+.author {
+  display: inline-block;
+}
+
+.author p {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+.author h2 {
+  font-size: 18px;
+}
+
+.press-releas-right-two {
+  padding: 15px;
+  background: #F1F1F1;
+}
+
+.press-releas-right-two h2 {
+  font-size: 24px;
+}
+
+.press-releas-right-two h4 {
+  font-size: 19px;
+}
+
+.press-releas-right-two a {
+  color: black;
+}
+
+.author2 {
+  display: inline-block;
+}
+
+.author2 p {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+.author2 h2 {
+  font-size: 18px;
+}
+
+
+/* press release section end */
+
+
+/*contact us section start */
+
+.contact-us {
+  width: 100%;
+  padding: 80px 0px 4px;
+  background: #ededed;
+}
+
+.contact-us .part1 .title {
+  text-align: center;
+}
+
+.contact-us .part1 .title h5 {
+  color: #29678f;
+  font-size: 19px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+
+.contact-us .part1 .title h2 {
+  color: #FFCC1D;
+  font-size: 47px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 17px;
+}
+
+.contact-us .part1 .title img {
+  width: 72px;
+  margin-bottom: 14px;
+}
+
+.contact-us .part2-inner {
+  text-align: center;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.contact-us .part2-inner i {
+  color: #FFCC1D;
+  font-size: 28px;
+}
+
+.contact-us .part2-inner p {
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
+  padding-bottom: 14px;
+}
+
+.contact-us .main-form {
+  background: white;
+  margin-top: 19px;
+  padding-top: 22px;
+  padding-right: 19px;
+  padding-left: 9px;
+  margin-bottom: 13px;
+}
+
+.contact-us .form-control {
+  color: #414045;
+  background: transparent;
+  border: 1px solid #414045;
+  margin-top: 10px;
+  margin-left: 6px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.contact-us .main-form .btn {
+  font-size: 21px;
+  font-weight: 600;
+  background-color: black;
+  border-radius: 10px;
+  padding: 7px 14px;
+  transition: 2s;
+}
+
+.contact-us .main-form .btn:hover {
+  background-color: white;
+  color: #FFCC1D;
+}
+
+
+/*contact us section end */
+
+
+/*footer section start */
+
+.footer-section {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  background: #FFCC1D;
+}
+
+.footer-section .footer-body {
+  text-align: center;
+}
+
+.footer-section .footer-body ul {
+  display: block;
+}
+
+.footer-section .footer-body li {
+  list-style: none;
+  display: inline-block;
+  margin: 8px 17px;
+}
+
+.footer-section .footer-body a {
+  color: black;
+  font-size: 18px;
+  transition: 1s;
+  /* margin-top: 0px; */
+}
+
+.footer-section .footer-body h3 {
+  color: black;
+  font-size: 18px;
+  margin-top: 8px;
+  /* margin-top: 0px; */
+}
+
+.footer-section .footer-body a:hover {
+  color: #008ed6;
+  /* margin-top: 0px; */
+}
+
+
+/* footer section end */
+
+
+/* project code end */
+
+
+/*------------------------------------------------
+--------------------------------------------------
+---------------------------------------------------
+----------------- RESPONSIVE MEDIA QUERIES START---
+---------------------------------------------------*/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /*****************************/
+  .header-section {
+    width: 100%;
+    background: #FFCC1D;
+  }
+  .isStuck {
+    left: 0px;
+    width: 100%;
+    background: #F1F1F1;
+  }
+  .navbar-wrapper {
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+  }
+  .header-section-menu .navbar-brand img {
+    max-width: 20%;
+  }
+  /*header section menu start */
+  .header-section-menu {
+    width: 100%;
+  }
+  .header-section-menu .bg-light {
+    background: transparent !important;
+  }
+  .header-section-menu .nav-link {
+    margin-left: 26px;
+  }
+  .header-section-menu .navbar-light .navbar-nav .active>.nav-link {
+    color: black;
+  }
+  .header-section-menu .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .header-section-menu .navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .header-section-menu .navbar-nav {
+    margin-left: 25px;
+  }
+  .header-section-menu .nav-item {
+    margin-left: 54px;
+    /* text-align: center; */
+  }
+  .header-section-menu .btn {
+    margin-left: 59px;
+    font-size: 21px;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px 60px;
+    transition: 2s;
+  }
+  .header-section-menu .btn:hover,
+  .header-section-menu .btn:focus {
+    background-color: white;
+    color: #FFCC1D;
+  }
+  /*header section menu end  */
+  /*header section banner start */
+  .header-section-banner {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .header-section-banner .banner-content {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 48px;
+  }
+  .header-section-banner .banner-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+  }
+  .header-section-banner .banner-content p {
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+  }
+  .header-section-banner .banner-content .btn {
+    font-size: 22px;
+    background-color: black;
+    font-weight: 600;
+    padding: 13px 15px;
+    transition: 1s;
+  }
+  .header-section-banner .banner-content .btn:hover {
+    background-color: white;
+    color: #FFCC1D;
+  }
+  .header-section-banner .banner-right-image {
+    margin-bottom: -80px;
+  }
+  .header-section-banner .banner-right-image .b-image {
+    width: 100%;
+    height: 376px;
+    margin-bottom: 26px;
+  }
+  /*header section banner end  */
+  /*about us section start */
+  .about-us {
+    width: 100%;
+    padding: 96px 0px 43px;
+  }
+  .about-us-top {
+    width: 100%;
+  }
+  .about-us-top .about-us-top-inner h3 {
+    text-align: center;
+    font-weight: 600;
+    color: black;
+  }
+  .about-us-top .about-us-top-inner h4 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #FFCC1D;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .about-us-middle .about-us-middle-inner img {
+    width: 87%;
+    margin-left: 27px;
+  }
+  .about-us-bottom {
+    margin-left: 37px;
+    margin-top: 46px;
+    /* margin-bottom: 9px; */
+  }
+  .about-us-bottom .card {
+    margin-bottom: 23px;
+  }
+  .about-us-bottom .card img {
+    width: 43%;
+    margin-left: 86px;
+  }
+  .about-us-bottom .card-body .card-title {
+    text-align: center;
+    font-weight: 600;
+  }
+  .about-us-bottom .card-body .card-text {
+    text-align: center;
+    font-size: 17px;
+  }
+  .about-us-bottom .card-body .btn {
+    margin-left: 58px;
+    font-size: 16px;
+    background-color: black;
+    font-weight: 600;
+    padding: 9px 9px;
+    transition: 1s;
+  }
+  .about-us-bottom .card-body .btn:hover {
+    background-color: white;
+    color: #FFCC1D;
+  }
+  /*about us section end  */
+  /*our client section start */
+  .our-clients {
+    width: 100%;
+    padding: 80px 0px 60px 0px;
+    background-color: #F1F1F1;
+  }
+  /* our client heading */
+  .our-clients-heading .our-clients-heading-inner h3 {
+    text-align: center;
+    font-weight: 600;
+    color: black;
+  }
+  .carousel-control-prev-icon {
+    margin-top: -94px;
+    background-image: url(../images/left.png) !important;
+  }
+  .carousel-control-next-icon {
+    margin-top: -94px;
+    background-image: url(../images/right-arrow.png) !important;
+  }
+  .our-clients-heading .our-clients-heading-inner h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #FFCC1D;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  /*our client testimonials*/
+  .our-clients-testimonials {
+    margin-top: -43px;
+  }
+  .carousel-indicators {
+    color: #FFCC1D;
+  }
+  .our-clients-testimonials .carousel-inner {
+    padding-top: 219px;
+    padding-bottom: 10px;
+  }
+  .our-clients-testimonials p {
+    font-size: 18px;
+    color: black;
+    line-height: 26px;
+    font-weight: 500;
+  }
+  .carousel-item h5 {
+    color: black;
+  }
+  .carousel-indicators li {
+    background-color: #FFCC1D !important;
+  }
+  /*our client section end */
+  /*our projects start */
+  .our-projects {
+    width: 100%;
+    padding: 80px 0px;
+  }
+  .our-projects .our-project-title {
+    margin-bottom: 30px;
+  }
+  .our-projects .our-project-title h5 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+  }
+  .protfolio-section {
+    width: 100%;
+    text-align: center;
+  }
+  .protfolio-section .buttons {
+    margin-bottom: 23px;
+  }
+  .protfolio-section .buttons .btn {
+    margin-left: 0px;
+    padding: 6px 15px 11px 9px;
+    font-size: 21px;
+    font-weight: 700;
+    background-color: #FFCC1D;
+    transition: 1s;
+    margin-bottom: 10px;
+  }
+  .protfolio-section .buttons .btn:hover {
+    color: #FFCC1D;
+    background-color: white;
+  }
+  .protfolio-section .padd {
+    padding: 23px;
+  }
+  .protfolio-section .item {
+    width: 100%;
+    position: relative;
+  }
+  .item-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    transform: scale(0);
+    background-color: rgba(255, 99, 71, 0.2);
+    transition: 0.3s;
+  }
+  .item:hover .item-hover {
+    transform: scale(1);
+  }
+  .protfolio-section .fa {
+    font-size: 31px !important;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /*our projects end  */
+  /* press release section start*/
+  .press-release {
+    width: 100%;
+    padding: 0px 0px 60px;
+    margin-top: -35px;
+  }
+  .press-release-right {
+    width: 100%;
+    padding: 30px;
+    background-color: black;
+  }
+  .press-release h4 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFCC1D;
+  }
+  .press-release p {
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+  }
+  .press-release .btn {
+    font-size: 22px;
+    background-color: #FFCC1D;
+    font-weight: 600;
+    padding: 13px 15px;
+    transition: 1s;
+  }
+  .press-release.btn:hover {
+    background-color: white;
+    color: black;
+  }
+  .press-release-left {
+    width: 100%;
+  }
+  .press-releas-right-one {
+    margin-top: 20px;
+    padding: 15px;
+    background: #F1F1F1;
+    margin-bottom: 20px;
+  }
+  .press-releas-right-one p {
+    font-size: 24px;
+  }
+  .press-releas-right-one h4 {
+    font-size: 19px;
+  }
+  .press-releas-right-one a {
+    color: black;
+  }
+  .author {
+    display: inline-block;
+  }
+  .author p {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+  .author h2 {
+    font-size: 18px;
+  }
+  .press-releas-right-two {
+    padding: 15px;
+    background: #F1F1F1;
+  }
+  .press-releas-right-two h2 {
+    font-size: 24px;
+  }
+  .press-releas-right-two h4 {
+    font-size: 19px;
+  }
+  .press-releas-right-two a {
+    color: black;
+  }
+  .author2 {
+    display: inline-block;
+  }
+  .author2 p {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+  .author2 h2 {
+    font-size: 18px;
+  }
+  /* press release section end */
+  /*contact us section start */
+  .contact-us {
+    width: 100%;
+    padding: 80px 0px 4px;
+    background: #ededed;
+  }
+  .contact-us .part1 .title {
+    text-align: center;
+  }
+  .contact-us .part1 .title h5 {
+    color: #29678f;
+    font-size: 19px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+  }
+  .contact-us .part1 .title h2 {
+    color: #FFCC1D;
+    font-size: 47px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 17px;
+  }
+  .contact-us .part1 .title img {
+    width: 72px;
+    margin-bottom: 14px;
+  }
+  .contact-us .part2-inner {
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .contact-us .part2-inner i {
+    color: #FFCC1D;
+    font-size: 28px;
+  }
+  .contact-us .part2-inner p {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 14px;
+  }
+  .contact-us .main-form {
+    background: white;
+    margin-top: 19px;
+    padding-top: 22px;
+    padding-right: 19px;
+    padding-left: 9px;
+    margin-bottom: 13px;
+  }
+  .contact-us .form-control {
+    color: #414045;
+    background: transparent;
+    border: 1px solid #414045;
+    margin-top: 10px;
+    margin-left: 6px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .contact-us .main-form .btn {
+    font-size: 21px;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 10px;
+    padding: 7px 14px;
+    transition: 2s;
+  }
+  .contact-us .main-form .btn:hover {
+    background-color: white;
+    color: #FFCC1D;
+  }
+  /*contact us section end */
+  /*footer section start */
+  .footer-section {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background: #FFCC1D;
+  }
+  .footer-section .row {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  .footer-section .footer-body {
+    text-align: center;
+  }
+  .footer-section .footer-body ul {
+    display: block;
+  }
+  .footer-section .footer-body li {
+    list-style: none;
+    display: inline-block;
+    margin: 8px 17px;
+  }
+  .footer-section .footer-body a {
+    color: black;
+    font-size: 18px;
+    transition: 1s;
+    /* margin-top: 0px; */
+  }
+  .footer-section .footer-body h3 {
+    color: black;
+    font-size: 17px;
+    margin-top: 8px;
+    /* margin-top: 0px; */
+    font-weight: 600;
+  }
+  .footer-section .footer-body a:hover {
+    color: #008ed6;
+    /* margin-top: 0px; */
+  }
+  /* footer section end */
+  /*******************/
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /******************************/
+  .header-section {
+    width: 100%;
+    background: #FFCC1D;
+  }
+  .isStuck {
+    left: 0px;
+    width: 100%;
+    background: #F1F1F1
+  }
+  .navbar-wrapper {
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+  }
+  .header-section-menu .navbar-brand img {
+    max-width: 24%;
+  }
+  /*header section menu start */
+  .header-section-menu {
+    width: 100%;
+  }
+  .header-section-menu .bg-light {
+    background: transparent !important;
+  }
+  .header-section-menu .nav-link {
+    margin-left: 26px;
+  }
+  .header-section-menu .navbar-light .navbar-nav .active>.nav-link {
+    color: black;
+  }
+  .header-section-menu .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .header-section-menu .navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .header-section-menu .navbar-nav {
+    margin-left: 25px;
+  }
+  .header-section-menu .nav-item {
+    margin-left: -16px;
+    /* text-align: center; */
+    margin-top: 6px;
+  }
+  .header-section-menu .btn {
+    margin-left: 19px;
+    font-size: 21px;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px 60px;
+    transition: 2s;
+  }
+  .header-section-menu .btn:hover,
+  .header-section-menu .btn:focus {
+    background-color: white;
+    color: #FFCC1D;
+  }
+  /*header section menu end  */
+  /*header section banner start */
+  .header-section-banner {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .header-section-banner .banner-content {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 48px;
+  }
+  .header-section-banner .banner-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+  }
+  .header-section-banner .banner-content p {
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+  }
+  .header-section-banner .banner-content .btn {
+    font-size: 22px;
+    background-color: black;
+    font-weight: 600;
+    padding: 13px 15px;
+    transition: 1s;
+  }
+  .header-section-banner .banner-content .btn:hover {
+    background-color: white;
+    color: #FFCC1D;
+  }
+  .header-section-banner .banner-right-image {
+    margin-bottom: -80px;
+  }
+  .header-section-banner .banner-right-image .b-image {
+    width: 100%;
+    height: 413px;
+    margin-bottom: 0px;
+    margin-top: 43px;
+  }
+  /*header section banner end  */
+  /*about us section start */
+  .about-us {
+    width: 100%;
+    padding: 96px 0px 43px;
+  }
+  .about-us-top {
+    width: 100%;
+  }
+  .about-us-top .about-us-top-inner h3 {
+    text-align: center;
+    font-weight: 600;
+    color: black;
+  }
+  .about-us-top .about-us-top-inner h4 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #FFCC1D;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .about-us-middle .about-us-middle-inner img {
+    width: 93%;
+    margin-left: 27px;
+  }
+  .about-us-bottom {
+    margin-left: -77px;
+    margin-top: 46px;
+    /* margin-bottom: 9px; */
+  }
+  .about-us-bottom .card {
+    margin-bottom: 23px;
+  }
+  .about-us-bottom .card img {
+    width: 43%;
+    margin-left: 86px;
+  }
+  .about-us-bottom .card-body .card-title {
+    text-align: center;
+    font-weight: 600;
+  }
+  .about-us-bottom .card-body .card-text {
+    text-align: center;
+    font-size: 17px;
+  }
+  .about-us-bottom .card-body .btn {
+    margin-left: 58px;
+    font-size: 16px;
+    background-color: black;
+    font-weight: 600;
+    padding: 9px 9px;
+    transition: 1s;
+  }
+  .about-us-bottom .card-body .btn:hover {
+    background-color: white;
+    color: #FFCC1D;
+  }
+  /*about us section end  */
+  /*our client section start */
+  .our-clients {
+    width: 100%;
+    padding: 80px 0px 60px 0px;
+    background-color: #F1F1F1;
+  }
+  /* our client heading */
+  .our-clients-heading .our-clients-heading-inner h3 {
+    text-align: center;
+    font-weight: 600;
+    color: black;
+  }
+  .carousel-control-prev-icon {
+    margin-top: -94px;
+    background-image: url(../images/left.png) !important;
+  }
+  .carousel-control-next-icon {
+    margin-top: -94px;
+    background-image: url(../images/right-arrow.png) !important;
+  }
+  .our-clients-heading .our-clients-heading-inner h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #FFCC1D;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  /*our client testimonials*/
+  .our-clients-testimonials {
+    margin-top: -43px;
+  }
+  .carousel-indicators {
+    color: #FFCC1D;
+  }
+  .our-clients-testimonials .carousel-inner {
+    padding-top: 364px;
+    padding-bottom: 10px;
+  }
+  .our-clients-testimonials p {
+    font-size: 18px;
+    color: black;
+    line-height: 26px;
+    font-weight: 500;
+  }
+  .carousel-item h5 {
+    color: black;
+  }
+  .carousel-indicators li {
+    background-color: #FFCC1D !important;
+  }
+  /*our client section end */
+  /*our projects start */
+  .our-projects {
+    width: 100%;
+    padding: 80px 0px;
+  }
+  .our-projects .our-project-title {
+    margin-bottom: 30px;
+  }
+  .our-projects .our-project-title h5 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+  }
+  .protfolio-section {
+    width: 100%;
+    text-align: center;
+  }
+  .protfolio-section .buttons {
+    margin-bottom: 23px;
+  }
+  .protfolio-section .buttons .btn {
+    margin-left: 0px;
+    padding: 6px 15px 11px 9px;
+    font-size: 21px;
+    font-weight: 700;
+    background-color: #FFCC1D;
+    transition: 1s;
+    margin-bottom: 10px;
+  }
+  .protfolio-section .buttons .btn:hover {
+    color: #FFCC1D;
+    background-color: white;
+  }
+  .protfolio-section .padd {
+    padding: 23px;
+  }
+  .protfolio-section .item {
+    width: 100%;
+    position: relative;
+  }
+  .item-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    transform: scale(0);
+    background-color: rgba(255, 99, 71, 0.2);
+    transition: 0.3s;
+  }
+  .item:hover .item-hover {
+    transform: scale(1);
+  }
+  .protfolio-section .fa {
+    font-size: 31px !important;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /*our projects end  */
+  /* press release section start*/
+  .press-release {
+    width: 100%;
+    padding: 0px 0px 60px;
+    margin-top: -35px;
+  }
+  .press-release-right {
+    width: 100%;
+    padding: 30px;
+    background-color: black;
+  }
+  .press-release h4 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFCC1D;
+  }
+  .press-release p {
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+  }
+  .press-release .btn {
+    font-size: 22px;
+    background-color: #FFCC1D;
+    font-weight: 600;
+    padding: 13px 15px;
+    transition: 1s;
+  }
+  .press-release.btn:hover {
+    background-color: white;
+    color: black;
+  }
+  .press-release-left {
+    width: 100%;
+  }
+  .press-releas-right-one {
+    margin-top: 20px;
+    padding: 15px;
+    background: #F1F1F1;
+    margin-bottom: 20px;
+  }
+  .press-releas-right-one p {
+    font-size: 24px;
+  }
+  .press-releas-right-one h4 {
+    font-size: 19px;
+  }
+  .press-releas-right-one a {
+    color: black;
+  }
+  .author {
+    display: inline-block;
+  }
+  .author p {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+  .author h2 {
+    font-size: 18px;
+  }
+  .press-releas-right-two {
+    padding: 15px;
+    background: #F1F1F1;
+  }
+  .press-releas-right-two h2 {
+    font-size: 24px;
+  }
+  .press-releas-right-two h4 {
+    font-size: 19px;
+  }
+  .press-releas-right-two a {
+    color: black;
+  }
+  .author2 {
+    display: inline-block;
+  }
+  .author2 p {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+  .author2 h2 {
+    font-size: 18px;
+  }
+  /* press release section end */
+  /*contact us section start */
+  .contact-us {
+    width: 100%;
+    padding: 80px 0px 4px;
+    background: #ededed;
+  }
+  .contact-us .part1 .title {
+    text-align: center;
+  }
+  .contact-us .part1 .title h5 {
+    color: #29678f;
+    font-size: 19px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+  }
+  .contact-us .part1 .title h2 {
+    color: #FFCC1D;
+    font-size: 47px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 17px;
+  }
+  .contact-us .part1 .title img {
+    width: 72px;
+    margin-bottom: 14px;
+  }
+  .contact-us .part2-inner {
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .contact-us .part2-inner i {
+    color: #FFCC1D;
+    font-size: 28px;
+  }
+  .contact-us .part2-inner p {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 14px;
+  }
+  .contact-us .main-form {
+    background: white;
+    margin-top: 19px;
+    padding-top: 22px;
+    padding-right: 19px;
+    padding-left: 9px;
+    margin-bottom: 13px;
+  }
+  .contact-us .form-control {
+    color: #414045;
+    background: transparent;
+    border: 1px solid #414045;
+    margin-top: 10px;
+    margin-left: 6px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .contact-us .main-form .btn {
+    font-size: 21px;
+    font-weight: 600;
+    background-color: black;
+    border-radius: 10px;
+    padding: 7px 14px;
+    transition: 2s;
+  }
+  .contact-us .main-form .btn:hover {
+    background-color: white;
+    color: #FFCC1D;
+  }
+  /*contact us section end */
+  /*footer section start */
+  .footer-section {
+    width: 100%;
+    padding: 10px 0px 18px 0px;
+    background: #FFCC1D;
+    margin-bottom: 31px;
+  }
+  .footer-section .footer-body {
+    text-align: center;
+  }
+  .footer-section .footer-body ul {
+    display: block;
+  }
+  .footer-section .footer-body li {
+    list-style: none;
+    display: inline-block;
+    margin: 8px 17px;
+  }
+  .footer-section .footer-body a {
+    color: black;
+    font-size: 18px;
+    transition: 1s;
+    /* margin-top: 0px; */
+  }
+  .footer-section .footer-body h3 {
+    color: black;
+    font-size: 16px;
+    margin-top: 8px;
+    /* margin-top: 0px; */
+    font-weight: 600;
+  }
+  .footer-section .footer-body a:hover {
+    color: #008ed6;
+    /* margin-top: 0px; */
+  }
+  /* footer section end */
+  /*********************************/
+}
+
+
+/*------------------------------------------------
+--------------------------------------------------
+---------------------------------------------------
+----------------- RESPONSIVE MEDIA QUERIES END ---
+---------------------------------------------------*/
