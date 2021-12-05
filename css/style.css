@@ -69,7 +69,7 @@ a:hover {
 
 .header-section {
   width: 100%;
-    background: #FFF323;
+    background: #FEC260;
 }
 
 
@@ -183,7 +183,7 @@ a:hover {
 .header-section-banner .banner-content .btn {
               color: black;
     font-size: 22px;
-    background-color: #FFF323;
+    background-color: #FEC260;
     font-weight: 600;
     padding: 13px 15px;
     transition: 1s;
@@ -192,9 +192,9 @@ a:hover {
 }
 
 .header-section-banner .banner-content .btn:hover {
-        border: none;
+           border: none;
     background-color: black;
-    color: #FFF323;
+    color: #FEC260;
     border-radius: 10px;
 }
 
