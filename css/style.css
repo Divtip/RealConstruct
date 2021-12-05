@@ -33,7 +33,7 @@
    -  mobile: (min-width: 320px) and (max-width: 480px)
 
    **************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap');
 
 * {
   padding: 0px;
@@ -41,7 +41,8 @@
 }
 
 body {
-  font-family: 'Yantramanav', sans-serif;
+ /* font-family: 'Yantramanav', sans-serif;*/
+  font-family: 'EB Garamond', serif;
   font-size: 14px;
   line-height: 24px;
 }
@@ -56,7 +57,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Yantramanav', sans-serif;
+  /*font-family: 'Yantramanav', sans-serif;*/
+  font-family: 'EB Garamond', serif;
 }
 
 a,
@@ -182,10 +184,10 @@ a:hover {
 
 .header-section-banner .banner-content .btn {
               color: black;
-    font-size: 22px;
+    font-size: 24px;
     background-color: #FEC260;
     font-weight: 600;
-    padding: 13px 15px;
+    padding: 1px 10px 8px 10px;
     transition: 1s;
     border: 1px solid black;
 
@@ -212,24 +214,24 @@ a:hover {
 
 
 /*about us section start */
-
-.about-us {
+.about-us-2{
   width: 100%;
   padding: 80px 0px;
+  background:linear-gradient(0deg, rgba(255, 255, 250, 0.8), rgba(255, 255, 250, 0.8)), url(../images/about-us.jpg)center top no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
 }
 
-.about-us-top {
-  width: 100%;
-}
 
-.about-us-top .about-us-top-inner h3 {
+.about-us-2 .about-us-top-inner h3 {
     font-size: 38px;
     font-weight: 600;
     color: black;
     text-align: center;
 }
 
-.about-us-top .about-us-top-inner h4 {
+.about-us-2 .about-us-top-inner h4 {
   font-size: 40px;
   font-weight: 600;
   color: #FFCC1D;
@@ -237,51 +239,41 @@ a:hover {
   margin-bottom: 35px;
 }
 
-.about-us-middle-inner{
-  width: 100%;
-  /*background: url(../images/about-us.jpg) center top no-repeat;
-  background-size:cover; 
-}*/
-}
-
-.about-us-middle-inner img{
-  width: 100%;
-}
-.about-us-bottom {
-  margin-top: 46px;
-}
-
-.about-us-bottom .card img {
+.about-us-2 .card img {
   width: 43%;
   margin-left: 86px;
 }
 
-.about-us-bottom .card-body .card-title {
+.about-us-2  .card-body .card-title {
   text-align: center;
   font-weight: 600;
 }
 
-.about-us-bottom .card-body .card-text {
+.about-us-2  .card-body .card-text {
   text-align: center;
   font-size: 17px;
 }
 
-.about-us-bottom .card-body .btn {
-  margin-left: 58px;
-  font-size: 16px;
-  background-color: black;
-  font-weight: 600;
-  padding: 9px 9px;
-  transition: 1s;
+.about-us-2  .card-body .btn {
+  border-color: #FEC260;
+    margin-left: 58px;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: 600;
+    padding: 9px 9px;
+    transition: 1s;
+    color: black;
 }
 
-.about-us-bottom .card-body .btn:hover {
-  background-color: white;
-  color: #FFCC1D;
+.about-us-2  .card-body .btn:hover {
+  background-color: #FEC260;
+    color: black;
 }
+
 
 
 /*about us section end  */
+
 
 
 /*our client section start */
@@ -382,10 +374,12 @@ a:hover {
 }
 
 .protfolio-section .buttons .btn {
+  border-color: #FEC260;
+  background-color: transparent;
+  color: black;
   padding: 6px 11px 9px 9px;
   font-size: 21px;
   font-weight: 700;
-  background-color: #FFCC1D;
   transition: 1s;
 }
 
@@ -459,8 +453,10 @@ a:hover {
 }
 
 .press-release .btn {
+  border-color: #FEC260;
+  background-color: transparent;
+  color: white;
   font-size: 22px;
-  background-color: #FFCC1D;
   font-weight: 600;
   padding: 13px 15px;
   transition: 1s;
@@ -611,9 +607,11 @@ a:hover {
 }
 
 .contact-us .main-form .btn {
+  border-color: #FEC260;
+  background-color: transparent;
+  color: black;
   font-size: 21px;
   font-weight: 600;
-  background-color: black;
   border-radius: 10px;
   padding: 7px 14px;
   transition: 2s;
@@ -738,10 +736,12 @@ a:hover {
     /* text-align: center; */
   }
   .header-section-menu .btn {
+    border-color: #FEC260;
+  background-color: transparent;
+  color: black;
     margin-left: 59px;
     font-size: 21px;
     font-weight: 600;
-    background-color: black;
     border-radius: 10px;
     padding: 8px 60px;
     transition: 2s;
@@ -773,8 +773,10 @@ a:hover {
     line-height: 26px;
   }
   .header-section-banner .banner-content .btn {
+    border-color: #FEC260;
+  background-color: transparent;
+  color: black;
     font-size: 22px;
-    background-color: black;
     font-weight: 600;
     padding: 13px 15px;
     transition: 1s;
@@ -837,9 +839,11 @@ a:hover {
     font-size: 17px;
   }
   .about-us-bottom .card-body .btn {
+    border-color: #FEC260;
+  background-color: transparent;
+  color: black;
     margin-left: 58px;
     font-size: 16px;
-    background-color: black;
     font-weight: 600;
     padding: 9px 9px;
     transition: 1s;
@@ -922,11 +926,13 @@ a:hover {
     margin-bottom: 23px;
   }
   .protfolio-section .buttons .btn {
+    border-color: #FEC260;
+  background-color: transparent;
+  color: black;
     margin-left: 0px;
     padding: 6px 15px 11px 9px;
     font-size: 21px;
     font-weight: 700;
-    background-color: #FFCC1D;
     transition: 1s;
     margin-bottom: 10px;
   }
@@ -987,8 +993,10 @@ a:hover {
     line-height: 26px;
   }
   .press-release .btn {
+    border-color: #FEC260;
+  background-color: transparent;
+  color: black;
     font-size: 22px;
-    background-color: #FFCC1D;
     font-weight: 600;
     padding: 13px 15px;
     transition: 1s;
@@ -1110,9 +1118,11 @@ a:hover {
     font-weight: 600;
   }
   .contact-us .main-form .btn {
+    border-color: #FEC260;
+  background-color: transparent;
+  color: black;
     font-size: 21px;
     font-weight: 600;
-    background-color: black;
     border-radius: 10px;
     padding: 7px 14px;
     transition: 2s;
@@ -1215,10 +1225,12 @@ a:hover {
     margin-top: 6px;
   }
   .header-section-menu .btn {
+    border-color: #FEC260;
+  background-color: transparent;
+  color: black;
     margin-left: 19px;
     font-size: 21px;
     font-weight: 600;
-    background-color: black;
     border-radius: 10px;
     padding: 8px 60px;
     transition: 2s;
@@ -1250,8 +1262,10 @@ a:hover {
     line-height: 26px;
   }
   .header-section-banner .banner-content .btn {
+    border-color: #FEC260;
+  background-color: transparent;
+  color: black;
     font-size: 22px;
-    background-color: black;
     font-weight: 600;
     padding: 13px 15px;
     transition: 1s;
@@ -1315,9 +1329,11 @@ a:hover {
     font-size: 17px;
   }
   .about-us-bottom .card-body .btn {
+    border-color: #FEC260;
+  background-color: transparent;
+  color: black;
     margin-left: 58px;
     font-size: 16px;
-    background-color: black;
     font-weight: 600;
     padding: 9px 9px;
     transition: 1s;
@@ -1400,11 +1416,13 @@ a:hover {
     margin-bottom: 23px;
   }
   .protfolio-section .buttons .btn {
+    border-color: #FEC260;
+  background-color: transparent;
+  color: black;
     margin-left: 0px;
     padding: 6px 15px 11px 9px;
     font-size: 21px;
     font-weight: 700;
-    background-color: #FFCC1D;
     transition: 1s;
     margin-bottom: 10px;
   }
