@@ -1,4 +1,4 @@
-/*************************
+************************
 *********** ABOUT REALCONSTRUCT ***************
 ***************************/
 
@@ -224,19 +224,19 @@ a:hover {
 }
 
 
-.about-us-2 .about-us-top-inner h3 {
-    font-size: 38px;
-    font-weight: 600;
-    color: black;
+.about-us-2 .about-us-top-inner h3  {
+    font-size: 42px;
+    font-weight: 800;
+    color: #244A5D;
     text-align: center;
 }
 
 .about-us-2 .about-us-top-inner h4 {
-  font-size: 40px;
-  font-weight: 600;
-  color: #FFCC1D;
-  text-align: center;
-  margin-bottom: 35px;
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-bottom: 54px;
 }
 
 .about-us-2 .card img {
@@ -256,7 +256,7 @@ a:hover {
 
 .about-us-2  .card-body .btn {
   border-color: #FEC260;
-    margin-left: 58px;
+    margin-left: 72px;
     font-size: 16px;
     background-color: transparent;
     font-weight: 600;
@@ -304,11 +304,11 @@ a:hover {
 }
 
 .our-clients-heading .our-clients-heading-inner h2 {
-  font-size: 40px;
-  font-weight: 600;
-  color: #FFCC1D;
-  text-align: center;
-  margin-bottom: 35px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFCC1D;
+    text-align: center;
+    margin-bottom: 51px;
 }
 
 
@@ -428,7 +428,7 @@ a:hover {
 
 
 /* press release section start*/
-
+/*
 .press-release {
   width: 100%;
   padding: 80px 0px;
@@ -530,9 +530,176 @@ a:hover {
 .author2 h2 {
   font-size: 18px;
 }
-
+*/
 
 /* press release section end */
+
+/* clients part start */
+.clients{
+  width: 100%;
+  padding: 80px 0px;
+  background: #ffcd04;
+}
+
+/* clients part 1 */
+.clients .clients-part-1{
+ 
+}
+
+
+.clients .clients-part-1 .head{
+  font-size: 17px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.clients .clients-part-1 h4{
+  font-size: 42px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.clients .clients-part-1 .des{
+      font-size: 13px;
+    color: #000000;
+    font-weight: 500;
+    width: 83%;
+    line-height: 1.5rem;
+}
+.clients .clients-part-1 .btn{
+  font-size: 16px;
+    padding: 12px 48px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #f46110;
+    border: 1px solid transparent;
+    border-radius: 31px;
+}
+.clients .clients-part-1 .btn:hover{
+    color: #ffffff !important;
+    background-color: #000000 !important;
+    border: 1px solid transparent;
+}
+
+
+/* clients part 2 */
+.clients .clients-part-2{
+ 
+}
+
+.clients .clients-part-2 .release-box{
+  background-color: #FFFFFF;
+    padding: 35px 20px;
+    border-radius: 10px;
+    margin-top: 13px;
+}
+
+.clients .clients-part-2 .release-box h1{
+      font-size: 20px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: bold;
+    color: #000000;
+}
+.clients .clients-part-2 .release-box h4{
+  font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5rem;
+    opacity: .8;
+}
+.clients .clients-part-2 .release-box .release-button{
+  font-size: 15px;
+    font-weight: bold;
+    color: #f46110;
+}
+.clients .clients-part-2 .release-box .release-button:hover{
+ 
+}
+.clients .clients-part-2 .release-box i{
+ 
+}
+.clients .clients-part-2 .release-box .release-img{
+      
+}
+.clients .clients-part-2 .release-img img{
+   max-width: 14%;
+    height: auto;
+}
+.clients .clients-part-2 .release-img-heading{
+ font-size: 12px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: bold;
+    display: inline-block;
+}
+.clients .clients-part-2  .release-img .img-date{
+ font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    display: inline-block;
+    position: relative;
+    left: 15%;
+}
+
+
+/* clients part 3 */
+.clients .clients-part-3{
+
+}
+.clients .clients-part-3 .release-box{
+  background-color: #FFFFFF;
+    padding: 35px 20px;
+    border-radius: 10px;
+    margin-top: 13px;
+}
+
+.clients .clients-part-3 .release-box h1{
+      font-size: 20px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: bold;
+    color: #000000;
+}
+.clients .clients-part-3 .release-box h4{
+  font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5rem;
+    opacity: .8;
+}
+.clients .clients-part-3 .release-box .release-button{
+  font-size: 15px;
+    font-weight: bold;
+    color: #f46110;
+}
+.clients .clients-part-3 .release-box .release-button:hover{
+ 
+}
+.clients .clients-part-3 .release-box i{
+ 
+}
+.clients .clients-part-3 .release-box .release-img{
+      
+}
+.clients .clients-part-3 .release-img img{
+   max-width: 14%;
+    height: auto;
+}
+.clients .clients-part-3 .release-img-heading{
+ font-size: 12px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: bold;
+    display: inline-block;
+}
+.clients .clients-part-3  .release-img .img-date{
+ font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: end;
+    display: inline-block;
+    position: relative;
+    left: 15%;
+}
+
+
+
+
+/* clients part end */
 
 
 /*contact us section start */
@@ -1662,4 +1829,4 @@ a:hover {
 --------------------------------------------------
 ---------------------------------------------------
 ----------------- RESPONSIVE MEDIA QUERIES END ---
----------------------------------------------------*/
+---------------------------------------------------
