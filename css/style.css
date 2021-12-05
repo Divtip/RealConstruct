@@ -69,7 +69,7 @@ a:hover {
 
 .header-section {
   width: 100%;
-  background: #FFCC1D;
+    background: #FFF323;
 }
 
 
@@ -99,7 +99,7 @@ a:hover {
 }
 
 .header-section-menu .nav-link {
-  margin-left: 26px;
+  margin-left: 25px;
 }
 
 .header-section-menu .navbar-light .navbar-nav .active>.nav-link {
@@ -107,17 +107,22 @@ a:hover {
 }
 
 .header-section-menu .navbar-light .navbar-nav .nav-link {
+  padding-left: 15px;
   color: black;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   transition: 1s;
 }
 
 .header-section-menu .navbar-light .navbar-nav .nav-link:hover {
-  background-color: #FFCC1D;
-  color: white;
-  font-size: 20px;
-  font-weight: 600;
+    border-radius: 10px;
+    background-color: black;
+    color: #FFCC1D;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .header-section-menu .navbar-nav {
@@ -140,7 +145,7 @@ a:hover {
 }
 
 .header-section-menu .navbar-brand img {
-  max-width: 26%;
+  max-width: 19%;
 }
 
 .header-section-menu .navbar-brand {
@@ -164,28 +169,33 @@ a:hover {
 }
 
 .header-section-banner .banner-content h1 {
-  font-size: 40px;
-  font-weight: 600;
-  color: black;
+    font-size: 43px;
+    font-weight: 600;
+    color: black;
 }
 
 .header-section-banner .banner-content p {
-  font-size: 16px;
-  color: black;
-  line-height: 26px;
+    font-size: 17px;
+    color: black;
+    line-height: 26px;
 }
 
 .header-section-banner .banner-content .btn {
-  font-size: 22px;
-  background-color: black;
-  font-weight: 600;
-  padding: 13px 15px;
-  transition: 1s;
+              color: black;
+    font-size: 22px;
+    background-color: #FFF323;
+    font-weight: 600;
+    padding: 13px 15px;
+    transition: 1s;
+    border: 1px solid black;
+
 }
 
 .header-section-banner .banner-content .btn:hover {
-  background-color: white;
-  color: #FFCC1D;
+        border: none;
+    background-color: black;
+    color: #FFF323;
+    border-radius: 10px;
 }
 
 .header-section-banner .banner-right-image {
@@ -213,9 +223,10 @@ a:hover {
 }
 
 .about-us-top .about-us-top-inner h3 {
-  text-align: center;
-  font-weight: 600;
-  color: black;
+    font-size: 38px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
 }
 
 .about-us-top .about-us-top-inner h4 {
@@ -226,11 +237,16 @@ a:hover {
   margin-bottom: 35px;
 }
 
-.about-us-middle .about-us-middle-inner img {
-  width: 83%;
-  margin-left: 115px;
+.about-us-middle-inner{
+  width: 100%;
+  /*background: url(../images/about-us.jpg) center top no-repeat;
+  background-size:cover; 
+}*/
 }
 
+.about-us-middle-inner img{
+  width: 100%;
+}
 .about-us-bottom {
   margin-top: 46px;
 }
